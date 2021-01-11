@@ -16,6 +16,7 @@ export const useThemeUpdate = () => {
 }
 
 export function ThemeProvider({ children }) {
+  //CONTAINING/TRACKING STATE OF IN THIS COMPONENT
   const [darkTheme, setDarktTheme] = useState(
     false
   )
