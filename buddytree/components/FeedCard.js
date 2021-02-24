@@ -42,7 +42,7 @@ export default function FeedCard({
       raised
       className={classes.paper}
     >
-      <Grid item xs={10} spacing={2}>
+      <Grid item xs={10}>
         <Typography variant='h3'>
           {feed.first_name} {feed.last_name}
         </Typography>
