@@ -20,7 +20,7 @@ yarn dev
 - [x] Utilize API Routes
 - [x] Rewrites API Routes where applicable
 - [x] Use Material-UI
-- [x] Create an endless feed application
+- [x] Create an endless feed application (Infitnite Scroll)
 - [x] Endless feed application where you can click on an item
 - [x] Generic info page within the application.
 - [x] Please provide a link
