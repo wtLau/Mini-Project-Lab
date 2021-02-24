@@ -31,11 +31,12 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
+Mock data Downloaded from [Mockaroo](https://www.mockaroo.com/1920d500)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+Deployed with [Vercel]()
+
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
