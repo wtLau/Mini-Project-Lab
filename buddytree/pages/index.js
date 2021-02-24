@@ -74,7 +74,8 @@ export default function Index() {
               <FeedCard key={index} feed={feed} />
             ))}
       </Grid>
-      {isLoading ? null : (
+      {isLoading ||
+      feedData.length < feedNumber ? null : (
         <Grid
           container
           justify='center'
