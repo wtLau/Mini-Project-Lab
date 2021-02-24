@@ -25,11 +25,13 @@ yarn dev
 - [x] Generic info page within the application.
 - [x] Please provide a link
 
+## Notes
+
 [Live Demo](https://buddytree-three.vercel.app/)
 
 Or [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Notes
+API routes can be accessed on [/api/feeds](https://buddytree-three.vercel.app/api/feeds).
 
 Mock data Downloaded from [Mockaroo](https://www.mockaroo.com/1920d500)
 
