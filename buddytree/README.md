@@ -27,7 +27,7 @@ yarn dev
 
 ## Notes
 
-[Live Demo](https://buddytree-three.vercel.app/)
+[Live Demo: https://buddytree-three.vercel.app/](https://buddytree-three.vercel.app/)
 
 Or [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
