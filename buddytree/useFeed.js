@@ -1,9 +1,4 @@
 import useSWR from 'swr'
-import React, {
-  useState,
-  useRef,
-  useCallback,
-} from 'react'
 
 export default function useFeed() {
   const fetcher = (url) =>
