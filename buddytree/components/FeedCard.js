@@ -11,20 +11,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  paper: {
+  wrapper: {
     padding: theme.spacing(2),
     margin: theme.spacing(2),
     maxWidth: 500,
-  },
-  image: {
-    width: 128,
-    height: 128,
-  },
-  img: {
-    margin: 'auto',
-    display: 'block',
-    maxWidth: '100%',
-    maxHeight: '100%',
   },
 }))
 
@@ -40,7 +30,7 @@ export default function FeedCard({
       justify='center'
       component={Card}
       raised
-      className={classes.paper}
+      className={classes.wrapper}
     >
       <Grid item xs={10}>
         <Typography variant='h3'>
