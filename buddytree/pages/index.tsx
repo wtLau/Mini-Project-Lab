@@ -11,9 +11,19 @@ import {
 } from '@material-ui/core'
 import useFeed from '../useFeed'
 
+interface Feed {
+  readonly id: number
+  gender: string
+  first_name: string
+  last_name: string
+  salary: number
+  bonus: number
+  total: number
+}
+
 export default function Index() {
   const [feedNumber, setFeedNumber] = useState(20)
-  const loader = useRef(null)
+  const loader = useRef<HTMLInputElement>(null)
   const {
     feedData,
     isLoading,
@@ -70,7 +80,7 @@ export default function Index() {
         {feedData &&
           feedData
             .slice(0, feedNumber)
-            .map((feed, index) => (
+            .map((feed: Feed, index: number) => (
               <FeedCard key={index} feed={feed} />
             ))}
       </Grid>

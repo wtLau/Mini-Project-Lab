@@ -1,7 +1,7 @@
 import useSWR from 'swr'
 
 export default function useFeed() {
-  const fetcher = (url) =>
+  const fetcher = (url: string) =>
     fetch(url).then((res) => res.json())
   const { data, error } = useSWR(
     '/api/feeds',

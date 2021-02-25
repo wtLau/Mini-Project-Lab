@@ -1,11 +1,15 @@
 import { feeds } from '../../../data'
+import { FeedProps } from './index'
+import type { NextApiResponse } from 'next'
+
+interface AppProps { query: { id: number } }
 
 export default function feedsHandler(
-  { query: { id } },
-  res
+  { query: { id } }: AppProps,
+  res: NextApiResponse
 ) {
   const filtered = feeds.filter(
-    (p) => p.id.toString() === id
+    (p: FeedProps) => p.id.toString() === id.toString()
   )
 
   // Feed with id exists

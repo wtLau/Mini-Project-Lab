@@ -25,6 +25,10 @@ yarn dev
 - [x] Generic info page within the application.
 - [x] Please provide a link
 
+## Additional
+
+- [x] TypeScript
+
 ## Notes
 
 [Live Demo: https://buddytree-three.vercel.app/](https://buddytree-three.vercel.app/)

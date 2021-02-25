@@ -5,9 +5,12 @@ import {
   Grid,
 } from '@material-ui/core'
 import Link from 'next/link'
-import { makeStyles } from '@material-ui/core/styles'
+import {
+  makeStyles,
+  Theme,
+} from '@material-ui/core/styles'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: Theme) => ({
   root: {
     flexGrow: 1,
   },
@@ -18,10 +21,22 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
+export interface FeedProps {
+  feed: {
+    readonly id: number
+    gender: string
+    first_name: string
+    last_name: string
+    salary: number
+    bonus: number
+    total: number
+  }
+  noButton?: boolean
+}
 export default function FeedCard({
   feed,
   noButton,
-}) {
+}: FeedProps) {
   const classes = useStyles()
 
   return (
